@@ -9,7 +9,10 @@ class Solution {
             }
             else{
                 count++;
-                res = Math.max(count,res);
+               // res = Math.max(count,res);
+            }
+            if(count > res){
+                res = count;
             }
         }
         return res;
