@@ -15,6 +15,19 @@ class Solution {
         
     }
 }
+
+/* 
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int globalMax = Integer.MIN_VALUE;
+        int localMax = 0; 
+        for(int i=0;i<nums.length;i++){
+            localMax=Math.max(nums[i],nums[i]+localMax);
+           globalMax = Math.max(localMax,globalMax);
+        }
+        return globalMax;
+    }
+} */
 /* If you want to return the subarray as well
 
 public int maxSubArray(int[] nums) {
