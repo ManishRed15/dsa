@@ -10,42 +10,24 @@
  */
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode fp = list1, sp = list2;
-        ListNode head = null, tail = null;
-        while(fp != null || sp != null){
-            ListNode final_node = null;
-            if(fp != null && sp != null){
-                if(fp.val <= sp.val){
-                    final_node = fp;
-                    fp = fp.next;
-                }
-                else{
-                    final_node = sp;
-                    sp = sp.next;
-                }
+        ListNode dummy = new ListNode(-1);
+        ListNode tail = dummy;
+        while(list1 != null && list2 != null){
+            if(list1.val <= list2.val){
+                tail.next = list1;
+                list1 = list1.next;
+            } else {
+                tail.next = list2;
+                list2 = list2.next;
             }
-            else if(fp != null){
-                final_node = fp;
-                fp = fp.next;
-            }
-            else{
-                final_node = sp;
-                sp = sp.next;
-            }
-
-            tail = insertAtEnd(tail, final_node.val);
-            if(head == null){
-                head = tail;
-            }
+            tail =  tail.next;
         }
-        return head;
-    }
-    public ListNode insertAtEnd(ListNode tail, int val){
-        ListNode nodeToBeInserted = new ListNode(val);
-        if(tail != null){
-            tail.next = nodeToBeInserted;
-        }
-        return nodeToBeInserted; 
-    }
 
+        if(list1 != null)
+            tail.next = list1;
+        else
+            tail.next = list2;
+        
+        return dummy.next;
+    }
 }
