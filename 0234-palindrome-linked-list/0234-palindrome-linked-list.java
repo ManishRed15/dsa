@@ -10,18 +10,63 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        StringBuilder str = new StringBuilder();
-        ListNode current = head;
-
-        while(current != null){
-            str.append(current.val);
-            current = current.next;  
+        if(head == null || head.next == null){
+            return true;
         }
+        int n = findLength(head);
+        int breakPoint = n/2;
+        if(n%2 != 0){
+            breakPoint = n/2 + 1;
+        }
+        ListNode reverseNode = pointToBreak(head, breakPoint);
+        ListNode prev = pointToBreak(head, breakPoint-1);
 
-        String original = str.toString();
+        reverseFunction(prev, reverseNode);
 
-        String reversed = str.reverse().toString();
-        return original.equals(reversed);
-        
+        ListNode first = head;
+        ListNode second = prev.next;
+        while(first != null && second != null){
+            if(first.val != second.val){
+                return false;
+            }
+            first = first.next;
+            second = second.next;
+        }
+        return true;
+    }
+
+    private int findLength(ListNode head){
+        ListNode current = head;
+        int length = 0;
+        while(current != null)
+        {
+            current = current.next;
+            length++;
+        }
+        return length;
+    }
+
+    private ListNode pointToBreak(ListNode head, int k)
+    {
+        int count = 0;
+        ListNode current = head;
+        while(count < k){
+            current = current.next;
+            count++;
+        }
+        return current;
+    }
+
+    private void reverseFunction(ListNode prev, ListNode reverseNode){
+        ListNode first = reverseNode;
+        ListNode second = first.next;
+        while(first != null && second != null){
+            ListNode temp = second.next;
+            second.next = first;
+            first = second;
+            second = temp;
+        }
+        prev.next.next = null;
+        prev.next = first;
     }
 }
