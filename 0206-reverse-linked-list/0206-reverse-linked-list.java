@@ -16,8 +16,8 @@ class Solution {
         }
         ListNode last = reverseNode(head);
         last.next = null;
-        head = newHead;
-        return head;
+       // head = newHead;
+        return newHead;
     }
     public ListNode reverseNode(ListNode node){
         if(node.next == null){
