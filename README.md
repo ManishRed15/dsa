@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/ManishRed15/dsa/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/ManishRed15/dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ManishRed15/dsa/tree/master/0142-linked-list-cycle-ii) |
+| [0143-reorder-list](https://github.com/ManishRed15/dsa/tree/master/0143-reorder-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ManishRed15/dsa/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/ManishRed15/dsa/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/ManishRed15/dsa/tree/master/0283-move-zeroes) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/ManishRed15/dsa/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/ManishRed15/dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ManishRed15/dsa/tree/master/0142-linked-list-cycle-ii) |
+| [0143-reorder-list](https://github.com/ManishRed15/dsa/tree/master/0143-reorder-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ManishRed15/dsa/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/ManishRed15/dsa/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/ManishRed15/dsa/tree/master/0234-palindrome-linked-list) |
@@ -61,11 +63,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/ManishRed15/dsa/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/ManishRed15/dsa/tree/master/0021-merge-two-sorted-lists) |
+| [0143-reorder-list](https://github.com/ManishRed15/dsa/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/ManishRed15/dsa/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/ManishRed15/dsa/tree/master/0234-palindrome-linked-list) |
 ## Stack
 |  |
 | ------- |
+| [0143-reorder-list](https://github.com/ManishRed15/dsa/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/ManishRed15/dsa/tree/master/0234-palindrome-linked-list) |
 ## Math
 |  |
