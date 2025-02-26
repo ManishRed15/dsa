@@ -1,36 +1,65 @@
+class Node {
+    public int val;
+    public Node next;
+    public Node(int val){
+        this.val = val;
+    }
+}
+
+
 class MyHashSet {
-    // Boolean array to store the presence of an integer in the set
-    // The array is sized to store the maximum value + 1 as an index
-    private boolean[] data;
+    private static final int size = 10000;
+    Node[] hashSet = new Node[size];
 
-    // Constructor initializes the data array
+
     public MyHashSet() {
-        data = new boolean[1000001]; // Set all values to 'false' by default
+        
     }
-
-    // Method to add an integer to the set
-    // Sets the array value at the index 'key' to 'true'
+    
     public void add(int key) {
-        data[key] = true;
+       Node pointer = hashSet[key%size];
+       if(pointer == null){
+        hashSet[key%size] = new Node(key);
+       }
+       else{
+        Node current = pointer;
+        Node previous = current;
+        while(current != null){
+            if(current.val == key) return;
+            previous = current;
+            current = current.next;
+        }
+        previous.next = new Node(key);
+       }
+        
     }
-
-    // Method to remove an integer from the set
-    // Sets the array value at the index 'key' to 'false'
+    
     public void remove(int key) {
-        data[key] = false;
+        Node pointer = hashSet[key%size];
+        while(pointer != null){
+            if(pointer.val == key){
+                pointer.val = -1;
+                return;
+            }
+            pointer = pointer.next;
+        } 
+        
     }
-
-    // Method to check if an integer is present in the set
-    // Returns 'true' if the value at the index 'key' is 'true', otherwise 'false'
+    
     public boolean contains(int key) {
-        return data[key];
+        Node pointer = hashSet[key%size];
+        while(pointer != null){
+            if(pointer.val == key) return true;
+            pointer = pointer.next;
+        }
+        return false;
     }
 }
 
 /**
- * Usage:
- * MyHashSet hashSet = new MyHashSet();
- * hashSet.add(key); // Adds the item 'key' to the hash set
- * hashSet.remove(key); // Removes 'key' from the set if it's present
- * boolean doesContain = hashSet.contains(key); // Returns 'true' if 'key' is present in the set, otherwise 'false'
+ * Your MyHashSet object will be instantiated and called as such:
+ * MyHashSet obj = new MyHashSet();
+ * obj.add(key);
+ * obj.remove(key);
+ * boolean param_3 = obj.contains(key);
  */
