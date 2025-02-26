@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/ManishRed15/dsa/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/ManishRed15/dsa/tree/master/0229-majority-element-ii) |
 | [0283-move-zeroes](https://github.com/ManishRed15/dsa/tree/master/0283-move-zeroes) |
+| [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
 ## Hash Table
 |  |
 | ------- |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/ManishRed15/dsa/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/ManishRed15/dsa/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/ManishRed15/dsa/tree/master/0242-valid-anagram) |
+| [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/ManishRed15/dsa/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/ManishRed15/dsa/tree/master/0234-palindrome-linked-list) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/ManishRed15/dsa/tree/master/0528-swapping-nodes-in-a-linked-list) |
+| [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
 | [0908-middle-of-the-linked-list](https://github.com/ManishRed15/dsa/tree/master/0908-middle-of-the-linked-list) |
 ## Recursion
 |  |
@@ -118,4 +121,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/ManishRed15/dsa/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/ManishRed15/dsa/tree/master/0242-valid-anagram) |
+## Design
+|  |
+| ------- |
+| [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
+## Hash Function
+|  |
+| ------- |
+| [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
 <!---LeetCode Topics End-->
