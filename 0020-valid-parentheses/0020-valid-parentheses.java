@@ -2,18 +2,15 @@ class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         for(Character c : s.toCharArray()){
-            if(isOpen(c))
-                stack.push(c);
-            else{
-                if(stack.size()>0 && isSame(stack.peek(),c)){
+            if(!stack.isEmpty()){
+                if(isSame(stack.peek(),c)){
                     stack.pop();
+                    continue;
                 }
-                else
-                    return false;
             }
-
-        }
-        return stack.size()==0;    
+            stack.push(c);
+        } 
+        return stack.isEmpty();   
     }
 
     public boolean isSame(char open, char close){
