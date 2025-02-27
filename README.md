@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/ManishRed15/dsa/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/ManishRed15/dsa/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/ManishRed15/dsa/tree/master/0234-palindrome-linked-list) |
 ## Math
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/ManishRed15/dsa/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/ManishRed15/dsa/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/ManishRed15/dsa/tree/master/0242-valid-anagram) |
 ## Design
