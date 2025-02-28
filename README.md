@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/ManishRed15/dsa/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/ManishRed15/dsa/tree/master/0143-reorder-list) |
+| [0155-min-stack](https://github.com/ManishRed15/dsa/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/ManishRed15/dsa/tree/master/0234-palindrome-linked-list) |
 ## Math
 |  |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/ManishRed15/dsa/tree/master/0155-min-stack) |
 | [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
 ## Hash Function
 |  |
