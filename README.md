@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/ManishRed15/dsa/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/ManishRed15/dsa/tree/master/0229-majority-element-ii) |
 | [0283-move-zeroes](https://github.com/ManishRed15/dsa/tree/master/0283-move-zeroes) |
+| [0496-next-greater-element-i](https://github.com/ManishRed15/dsa/tree/master/0496-next-greater-element-i) |
 | [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
 ## Hash Table
 |  |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/ManishRed15/dsa/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/ManishRed15/dsa/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/ManishRed15/dsa/tree/master/0242-valid-anagram) |
+| [0496-next-greater-element-i](https://github.com/ManishRed15/dsa/tree/master/0496-next-greater-element-i) |
 | [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
 ## Divide and Conquer
 |  |
@@ -102,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/ManishRed15/dsa/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/ManishRed15/dsa/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/ManishRed15/dsa/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/ManishRed15/dsa/tree/master/0496-next-greater-element-i) |
 ## Math
 |  |
 | ------- |
@@ -133,4 +136,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/ManishRed15/dsa/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
