@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/ManishRed15/dsa/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/ManishRed15/dsa/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/ManishRed15/dsa/tree/master/0128-longest-consecutive-sequence) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ManishRed15/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ManishRed15/dsa/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/ManishRed15/dsa/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ManishRed15/dsa/tree/master/0217-contains-duplicate) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/ManishRed15/dsa/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/ManishRed15/dsa/tree/master/0143-reorder-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ManishRed15/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/ManishRed15/dsa/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/ManishRed15/dsa/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/ManishRed15/dsa/tree/master/0496-next-greater-element-i) |
@@ -111,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/ManishRed15/dsa/tree/master/0002-add-two-numbers) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ManishRed15/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Merge Sort
 |  |
 | ------- |
