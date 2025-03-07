@@ -4,7 +4,7 @@ class Solution {
 
         for(char c:s.toCharArray()){
             int len = str.length();
-            if(len>0 && Math.abs(str.charAt(len-1)-c)==32){
+            if(len>0 && Math.abs(str.charAt(len-1)-c)== ('a'-'A')){
                 str.deleteCharAt(len-1);
             }
             else{
