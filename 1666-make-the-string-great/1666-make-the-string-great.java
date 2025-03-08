@@ -1,5 +1,21 @@
 class Solution {
     public String makeGood(String s) {
+        char[] stack = s.toCharArray();
+
+        int top = -1;
+
+        for(char c : stack) {
+            if(top >= 0 && Math.abs(stack[top] - c) == 'a' - 'A' )
+            {
+                top--;
+            }
+            else{
+                stack[++top] = c;
+            }
+        }
+        return new String(stack, 0, top+1);
+
+        /*
         StringBuilder str = new StringBuilder();
 
         for(char c:s.toCharArray()){
@@ -12,5 +28,6 @@ class Solution {
             }
         }
         return str.toString();
+        */
     }
 }
