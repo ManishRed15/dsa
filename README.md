@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/ManishRed15/dsa/tree/master/0242-valid-anagram) |
 | [1078-remove-outermost-parentheses](https://github.com/ManishRed15/dsa/tree/master/1078-remove-outermost-parentheses) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/ManishRed15/dsa/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [1508-longest-happy-prefix](https://github.com/ManishRed15/dsa/tree/master/1508-longest-happy-prefix) |
 | [1666-make-the-string-great](https://github.com/ManishRed15/dsa/tree/master/1666-make-the-string-great) |
 | [2128-reverse-prefix-of-word](https://github.com/ManishRed15/dsa/tree/master/2128-reverse-prefix-of-word) |
 ## Design
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
+| [1508-longest-happy-prefix](https://github.com/ManishRed15/dsa/tree/master/1508-longest-happy-prefix) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -164,4 +166,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ManishRed15/dsa/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [1508-longest-happy-prefix](https://github.com/ManishRed15/dsa/tree/master/1508-longest-happy-prefix) |
+## Rolling Hash
+|  |
+| ------- |
+| [1508-longest-happy-prefix](https://github.com/ManishRed15/dsa/tree/master/1508-longest-happy-prefix) |
 <!---LeetCode Topics End-->
