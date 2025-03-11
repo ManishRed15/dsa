@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/ManishRed15/dsa/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/ManishRed15/dsa/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/ManishRed15/dsa/tree/master/0242-valid-anagram) |
+| [0424-longest-repeating-character-replacement](https://github.com/ManishRed15/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/ManishRed15/dsa/tree/master/0496-next-greater-element-i) |
 | [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
 ## Divide and Conquer
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/ManishRed15/dsa/tree/master/0049-group-anagrams) |
 | [0214-shortest-palindrome](https://github.com/ManishRed15/dsa/tree/master/0214-shortest-palindrome) |
 | [0242-valid-anagram](https://github.com/ManishRed15/dsa/tree/master/0242-valid-anagram) |
+| [0424-longest-repeating-character-replacement](https://github.com/ManishRed15/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [1078-remove-outermost-parentheses](https://github.com/ManishRed15/dsa/tree/master/1078-remove-outermost-parentheses) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/ManishRed15/dsa/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1508-longest-happy-prefix](https://github.com/ManishRed15/dsa/tree/master/1508-longest-happy-prefix) |
@@ -181,4 +183,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ManishRed15/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/ManishRed15/dsa/tree/master/0424-longest-repeating-character-replacement) |
 <!---LeetCode Topics End-->
