@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/ManishRed15/dsa/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/ManishRed15/dsa/tree/master/0015-3sum) |
 | [0041-first-missing-positive](https://github.com/ManishRed15/dsa/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/ManishRed15/dsa/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/ManishRed15/dsa/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/ManishRed15/dsa/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/ManishRed15/dsa/tree/master/0128-longest-consecutive-sequence) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/ManishRed15/dsa/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/ManishRed15/dsa/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ManishRed15/dsa/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0042-trapping-rain-water](https://github.com/ManishRed15/dsa/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/ManishRed15/dsa/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/ManishRed15/dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ManishRed15/dsa/tree/master/0142-linked-list-cycle-ii) |
@@ -111,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ManishRed15/dsa/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/ManishRed15/dsa/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/ManishRed15/dsa/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ManishRed15/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/ManishRed15/dsa/tree/master/0155-min-stack) |
@@ -168,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/ManishRed15/dsa/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/ManishRed15/dsa/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ManishRed15/dsa/tree/master/0503-next-greater-element-ii) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ManishRed15/dsa/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -204,4 +208,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/ManishRed15/dsa/tree/master/0011-container-with-most-water) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/ManishRed15/dsa/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
