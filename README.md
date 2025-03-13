@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/ManishRed15/dsa/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/ManishRed15/dsa/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ManishRed15/dsa/tree/master/0049-group-anagrams) |
+| [0054-spiral-matrix](https://github.com/ManishRed15/dsa/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ManishRed15/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/ManishRed15/dsa/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/ManishRed15/dsa/tree/master/0128-longest-consecutive-sequence) |
@@ -222,5 +223,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/ManishRed15/dsa/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/ManishRed15/dsa/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ManishRed15/dsa/tree/master/0073-set-matrix-zeroes) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/ManishRed15/dsa/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
