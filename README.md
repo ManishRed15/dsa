@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/ManishRed15/dsa/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/ManishRed15/dsa/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/ManishRed15/dsa/tree/master/0283-move-zeroes) |
+| [0435-non-overlapping-intervals](https://github.com/ManishRed15/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0496-next-greater-element-i](https://github.com/ManishRed15/dsa/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ManishRed15/dsa/tree/master/0503-next-greater-element-ii) |
 | [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/ManishRed15/dsa/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/ManishRed15/dsa/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/ManishRed15/dsa/tree/master/0242-valid-anagram) |
+| [0435-non-overlapping-intervals](https://github.com/ManishRed15/dsa/tree/master/0435-non-overlapping-intervals) |
 ## Counting
 |  |
 | ------- |
@@ -223,10 +225,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/ManishRed15/dsa/tree/master/0011-container-with-most-water) |
+| [0435-non-overlapping-intervals](https://github.com/ManishRed15/dsa/tree/master/0435-non-overlapping-intervals) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/ManishRed15/dsa/tree/master/0042-trapping-rain-water) |
+| [0435-non-overlapping-intervals](https://github.com/ManishRed15/dsa/tree/master/0435-non-overlapping-intervals) |
 ## Matrix
 |  |
 | ------- |
