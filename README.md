@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/ManishRed15/dsa/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/ManishRed15/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/ManishRed15/dsa/tree/master/0075-sort-colors) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ManishRed15/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/ManishRed15/dsa/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ManishRed15/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ManishRed15/dsa/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/ManishRed15/dsa/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ManishRed15/dsa/tree/master/0053-maximum-subarray) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ManishRed15/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0435-non-overlapping-intervals](https://github.com/ManishRed15/dsa/tree/master/0435-non-overlapping-intervals) |
 ## Matrix
 |  |
