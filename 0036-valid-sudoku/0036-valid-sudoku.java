@@ -15,20 +15,17 @@ class Solution {
                 int gridNo = (i/3)*3 + (j/3);
 
                 if(board[i][j] != '.'){
-                    boolean isPresentInRow = rowSet[i].add(board[i][j]);
-                    boolean isPresentInColumn = columnSet[j].add(board[i][j]);
-                    boolean isPresentInGrid = gridSet[gridNo].add(board[i][j]);
-
-                if(!isPresentInRow || !isPresentInColumn || !isPresentInGrid){
-                    return false;
+                    boolean isPresentRow = rowSet[i].add(board[i][j]);
+                    boolean isPresentColumn = columnSet[j].add(board[i][j]);
+                    boolean isPresentGrid = gridSet[gridNo].add(board[i][j]);
+                
+                    if(!isPresentRow || !isPresentColumn || !isPresentGrid){
+                        return false;
+                    }
                 }
-                //rowSet[i].add(board[i][j]);
-                //columnSet[j].add(board[i][j]);
-                //gridSet[gridNo].add(board[i][j]);
-            }
             }
         }
         return true;
-
+        
     }
 }
