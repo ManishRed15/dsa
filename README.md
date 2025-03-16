@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/ManishRed15/dsa/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ManishRed15/dsa/tree/master/0503-next-greater-element-ii) |
 | [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
+| [1014-k-closest-points-to-origin](https://github.com/ManishRed15/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ManishRed15/dsa/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/ManishRed15/dsa/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 ## Hash Table
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/ManishRed15/dsa/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/ManishRed15/dsa/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/ManishRed15/dsa/tree/master/0169-majority-element) |
+| [1014-k-closest-points-to-origin](https://github.com/ManishRed15/dsa/tree/master/1014-k-closest-points-to-origin) |
 ## Sorting
 |  |
 | ------- |
@@ -77,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/ManishRed15/dsa/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/ManishRed15/dsa/tree/master/0242-valid-anagram) |
 | [0435-non-overlapping-intervals](https://github.com/ManishRed15/dsa/tree/master/0435-non-overlapping-intervals) |
+| [1014-k-closest-points-to-origin](https://github.com/ManishRed15/dsa/tree/master/1014-k-closest-points-to-origin) |
 ## Counting
 |  |
 | ------- |
@@ -156,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/ManishRed15/dsa/tree/master/0050-powx-n) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ManishRed15/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/ManishRed15/dsa/tree/master/0189-rotate-array) |
+| [1014-k-closest-points-to-origin](https://github.com/ManishRed15/dsa/tree/master/1014-k-closest-points-to-origin) |
 ## Merge Sort
 |  |
 | ------- |
@@ -228,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/ManishRed15/dsa/tree/master/0239-sliding-window-maximum) |
+| [1014-k-closest-points-to-origin](https://github.com/ManishRed15/dsa/tree/master/1014-k-closest-points-to-origin) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -261,4 +266,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/ManishRed15/dsa/tree/master/0238-product-of-array-except-self) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/ManishRed15/dsa/tree/master/1014-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/ManishRed15/dsa/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
