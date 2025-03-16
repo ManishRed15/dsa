@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/ManishRed15/dsa/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/ManishRed15/dsa/tree/master/0283-move-zeroes) |
 | [0435-non-overlapping-intervals](https://github.com/ManishRed15/dsa/tree/master/0435-non-overlapping-intervals) |
+| [0485-max-consecutive-ones](https://github.com/ManishRed15/dsa/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/ManishRed15/dsa/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ManishRed15/dsa/tree/master/0503-next-greater-element-ii) |
 | [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
