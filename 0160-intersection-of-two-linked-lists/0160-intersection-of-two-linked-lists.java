@@ -11,45 +11,47 @@
  */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        int m = findLength(headA);
-        int n = findLength(headB);
-        ListNode fp =headA, sp =headB;
-        if(m < n){
-            for(int i=0; i < n-m; i++){ 
-                sp = sp.next; 
+
+        int m = getLength(headA);
+        int n = getLength(headB);
+
+        ListNode first = headA, second = headB;
+
+        if(m<n){
+            for(int i=0; i<n-m; i++){
+                second = second.next;
             }
         }
-        else if(n < m){
-            for(int i=0; i < m-n; i++){
-                fp = fp.next;
+        else if(m>n){
+            for(int i=0; i<m-n; i++){
+                first = first.next;
             }
         }
 
-        return findSameNode(fp,sp);
+        return findSameNode(first,second);
         
     }
 
-    public ListNode findSameNode(ListNode fp, ListNode sp){
-        while(fp != null && sp != null){
-            if(fp == sp){
-                return fp;
+    private int getLength(ListNode head){
+        ListNode current = head;
+        int length = 0;
+        while(current != null){
+            length++;
+            current = current.next;
+        }
+        return length;
+    }
+
+    private ListNode findSameNode(ListNode first, ListNode second){
+        while(first != null && second != null){
+            if(first == second){
+                return first;
             }
             else{
-                fp = fp.next;
-                sp = sp.next;
+                first = first.next;
+                second = second.next;
             }
         }
         return null;
-    }
-
-    public int findLength(ListNode head)
-    {
-        ListNode cur = head;
-        int length = 0;
-        while(cur != null){
-            length++;
-            cur = cur.next;
-        }
-        return length;
     }
 }
