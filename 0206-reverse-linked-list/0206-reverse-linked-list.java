@@ -13,22 +13,15 @@ class Solution {
     public ListNode reverseList(ListNode head) {
         if(head==null) return null;
 
-        ListNode last = reverseRec(head);
-        last.next = null;
-        return newHead;
-        
-    }
-
-    public ListNode reverseRec(ListNode node){
-        if(node.next == null){
-            newHead = node;
-            return node;
-        }
-        else{
-            ListNode last = reverseRec(node.next);
-            last.next = node;
-            return node;
+        ListNode prev = null;
+        ListNode curr = head;
+        while(curr != null){
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
 
+        return prev;
     }
 }
