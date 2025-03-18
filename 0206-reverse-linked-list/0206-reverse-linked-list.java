@@ -11,22 +11,24 @@
 class Solution {
     private ListNode newHead;
     public ListNode reverseList(ListNode head) {
-        if(head == null){
-            return null;
-        }
-        ListNode last = reverseNode(head);
+        if(head==null) return null;
+
+        ListNode last = reverseRec(head);
         last.next = null;
-        head = newHead;
-        return head;
+        return newHead;
+        
     }
-    public ListNode reverseNode(ListNode node){
+
+    public ListNode reverseRec(ListNode node){
         if(node.next == null){
             newHead = node;
             return node;
         }
-        ListNode last = reverseNode(node.next);
-        last.next = node;
-        return node;
+        else{
+            ListNode last = reverseRec(node.next);
+            last.next = node;
+            return node;
+        }
+
     }
 }
-
