@@ -10,63 +10,40 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        if(head == null || head.next == null){
-            return true;
-        }
-        int n = findLength(head);
-        int breakPoint = n/2;
-        if(n%2 != 0){
-            breakPoint = n/2 + 1;
-        }
-        ListNode reverseNode = pointToBreak(head, breakPoint);
-        ListNode prev = pointToBreak(head, breakPoint-1);
+        if(head==null || head.next==null) return true;
 
-        reverseFunction(prev, reverseNode);
+        ListNode slow = head, fast = head;
+        while(fast!=null && fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
+        }
 
-        ListNode first = head;
-        ListNode second = prev.next;
-        while(first != null && second != null){
+        ListNode secondHalfHead = reverseList(slow);
+
+        ListNode first = head, second = secondHalfHead;
+
+        while(second != null){
             if(first.val != second.val){
                 return false;
             }
+
             first = first.next;
             second = second.next;
         }
+
+        //reverseList(secondHalfHead);
+
         return true;
     }
 
-    private int findLength(ListNode head){
-        ListNode current = head;
-        int length = 0;
-        while(current != null)
-        {
-            current = current.next;
-            length++;
+    private ListNode reverseList(ListNode node){
+        ListNode prev = null, curr = node;
+        while(curr != null){
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
-        return length;
-    }
-
-    private ListNode pointToBreak(ListNode head, int k)
-    {
-        int count = 0;
-        ListNode current = head;
-        while(count < k){
-            current = current.next;
-            count++;
-        }
-        return current;
-    }
-
-    private void reverseFunction(ListNode prev, ListNode reverseNode){
-        ListNode first = reverseNode;
-        ListNode second = first.next;
-        while(first != null && second != null){
-            ListNode temp = second.next;
-            second.next = first;
-            first = second;
-            second = temp;
-        }
-        prev.next.next = null;
-        prev.next = first;
+        return prev;
     }
 }
