@@ -10,13 +10,12 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
-        if(head.next == null){
-            return;
-        }
+        //1. find the middle value
+        //2.I will reverse the list from middle.next
+        //3. Adjust the new list
 
-        ListNode slow = head;
-        ListNode fast = head;
-        while(fast.next != null && fast.next.next != null){
+        ListNode fast = head, slow =head;
+        while(fast.next!=null && fast.next.next!=null){
             slow = slow.next;
             fast = fast.next.next;
         }
@@ -24,31 +23,29 @@ class Solution {
         ListNode secondHalf = slow.next;
         slow.next = null;
 
-        secondHalf = reverseList(secondHalf);
+        secondHalf = reverse(secondHalf);
 
-        ListNode current = head;
+        ListNode l1 = head;
         while(secondHalf != null){
-            ListNode nextFirst = current.next;
+            ListNode nextFirst = l1.next;
             ListNode nextSecond = secondHalf.next;
 
-            current.next = secondHalf;
+            l1.next = secondHalf;
             secondHalf.next = nextFirst;
-
-            current = nextFirst;
+            l1 = nextFirst;
             secondHalf = nextSecond;
         }
-
         
     }
 
-    private ListNode reverseList(ListNode head){
-        ListNode current = head;
+    private ListNode reverse(ListNode node){
         ListNode prev = null;
-        while(current != null){
-            ListNode nextNode = current.next;
-            current.next = prev;
-            prev = current;
-            current = nextNode;
+        ListNode curr = node;
+        while(curr != null){
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
         return prev;
     }
