@@ -7,6 +7,8 @@ class Solution {
         Arrays.sort(tArr);
         return Arrays.equals(sArr, tArr); */
 
+        //Char in java supports Unicode
+
         if(s.length() != t.length()) return false;
 
         Map<Character, Integer> countMap = new HashMap<>();
