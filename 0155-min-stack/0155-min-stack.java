@@ -3,7 +3,7 @@ class MinStack {
     /*To efficiently retrieve the minimum value in constant time, a single stack is used with an auxiliary technique:
     Store previous min values: When pushing a new minimum, store the old min first.
     Pop min values correctly: If the popped value is the current min, restore the previous min from the stack.
-    This avoids using an extra stack while ensuring O(1) min retrieval. */
+ */
     public Node head;
 
     public class Node{
