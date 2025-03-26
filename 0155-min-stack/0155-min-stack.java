@@ -1,34 +1,33 @@
 class MinStack {
-    /*We can solve this problem using Auxiliary Stack also*/
-    Stack<int[]> stack;
+    Stack<Integer> stack;
+    int min = Integer.MAX_VALUE;
 
     public MinStack() {
-        stack = new Stack<>();
+        this.stack = new Stack<>(); 
     }
     
     public void push(int val) {
-        if(stack.isEmpty()){
-            stack.push(new int[]{val, val});
-        } 
-        else{
-            int currentMin = stack.peek()[1];
-            stack.push(new int[]{val,Math.min(val,currentMin)});
-        }   
+        if(val <= min){
+            stack.push(min);
+            min = val;
+        }
+
+        stack.push(val);
     }
     
     public void pop() {
-        if(!stack.isEmpty())
-            stack.pop();
-        
+        if(stack.pop()==min){
+            min = stack.pop();
+        }
     }
     
     public int top() {
-        return stack.peek()[0];
-        
+        return stack.peek();
     }
     
     public int getMin() {
-        return stack.peek()[1];
+        return min;
+        
     }
 }
 
