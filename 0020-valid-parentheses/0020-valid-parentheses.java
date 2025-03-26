@@ -1,26 +1,27 @@
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
-        for(Character c : s.toCharArray()){
-            if(isOpen(c))
+        for(Character c:s.toCharArray()){
+            if(isOpen(c)){
                 stack.push(c);
+            }
             else{
-                if(stack.size()>0 && isSame(stack.peek(),c))
+                if(stack.size()>0 && isSame(stack.peek(),c)){
                     stack.pop();
-                else
+                }
+                else{
                     return false;
+                }
             }
         }
-        return stack.isEmpty();           
+        return stack.isEmpty();
     }
 
-
-    public boolean isSame(char open, char close){
-        return (open=='(' && close==')')||(open=='{' && close=='}')||(open=='['&& close==']');
-    }
-
-    public boolean isOpen(char c){
+    private boolean  isOpen(char c){
         return c=='(' || c=='{' || c=='[';
     }
 
+    private boolean isSame(char x,char y){
+        return (x=='(' && y==')') || (x=='[' && y==']') || (x=='{' && y=='}');
+    }
 }
