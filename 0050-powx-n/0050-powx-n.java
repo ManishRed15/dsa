@@ -13,7 +13,7 @@ class Solution {
                     return (res*res)/x;
                 }
                 else{
-                    return (res*res)*x;
+                    return res*res*x;
                 }
             }
         }
