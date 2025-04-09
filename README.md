@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0816-design-hashset](https://github.com/ManishRed15/dsa/tree/master/0816-design-hashset) |
 | [1014-k-closest-points-to-origin](https://github.com/ManishRed15/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ManishRed15/dsa/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [1675-magnetic-force-between-two-balls](https://github.com/ManishRed15/dsa/tree/master/1675-magnetic-force-between-two-balls) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/ManishRed15/dsa/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 ## Hash Table
 |  |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/ManishRed15/dsa/tree/master/0242-valid-anagram) |
 | [0435-non-overlapping-intervals](https://github.com/ManishRed15/dsa/tree/master/0435-non-overlapping-intervals) |
 | [1014-k-closest-points-to-origin](https://github.com/ManishRed15/dsa/tree/master/1014-k-closest-points-to-origin) |
+| [1675-magnetic-force-between-two-balls](https://github.com/ManishRed15/dsa/tree/master/1675-magnetic-force-between-two-balls) |
 ## Counting
 |  |
 | ------- |
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/ManishRed15/dsa/tree/master/0035-search-insert-position) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ManishRed15/dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ManishRed15/dsa/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [1675-magnetic-force-between-two-balls](https://github.com/ManishRed15/dsa/tree/master/1675-magnetic-force-between-two-balls) |
 ## Union Find
 |  |
 | ------- |
